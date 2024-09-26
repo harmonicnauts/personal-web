@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# REPL History
+.next
+
+# Modules and dependencies
+node_modules/
+
+# env files
+.env
+.env.local
+
+# Prisma file
+prisma/seed.ts
