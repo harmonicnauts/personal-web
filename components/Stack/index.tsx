@@ -44,7 +44,7 @@ const StackCard = ({ name, logo, lang }: IStackCard) => {
             }}
         >
             <img
-                src={`./assets/langs/${logo}`}
+                src={`${logo}`}
                 className="w-20 h-20 mx-auto mt-6 rounded-md"
             ></img>
             <p className="mx-auto my-auto text-white">{name}</p>
