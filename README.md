@@ -8,7 +8,7 @@ I'm also using this project to learn planing out a soon-to-build app, working on
 
 ## What's Under the Hood? 🔧
 
-- **>> Main Website <<**: Originally built with Next.js 12, but I refactored it to Next.js 14 (keeping things fresh!). It's hosted on Vercel 🚀 and uses Docker for deployment options.
+- **>> Main Website <<**: Originally built with Next.js 12, but I refactored it to Next.js 14. It's hosted on Vercel 🚀 and uses Docker for deployment options.
 - **Admin Dashboard**: Built using React and Express.js. TypeScript is powering both projects for its type safety. You can check it out at this repo [https://github.com/harmonicnauts/personal-web-admin](https://github.com/harmonicnauts/personal-web-admin)
 - **Database & Storage**: Both the main web and dashboard use PostgreSQL for the database, and Vercel Blob Storage for handling file uploads. Everything except the dashboard is hosted in the same project on Vercel. 
 
