@@ -4,7 +4,19 @@ import Head from "next/head";
 import "@styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
-	return <Component {...pageProps} />;
+	return (
+		<>
+			<Head>
+				<title>Rachmat Nasution</title>
+				<meta name="description" content="This is a website for my personal web that contain my introduction, tech stacks, and projects." />
+				<link rel="icon" href="/favicon.png" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			</Head>
+			<ThemeProvider>
+				<Component {...pageProps} />
+			</ThemeProvider>
+		</>
+	);
 }
 
 export default MyApp;
